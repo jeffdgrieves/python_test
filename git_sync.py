@@ -1,7 +1,7 @@
 import subprocess
 import datetime
 
-def git_sync(commit_message="Auto-commit"):
+def git_sync(commit_message="Date&Time"):
     """Sync local changes to the current Git branch with a timestamped commit."""
     try:
         # Get the current branch name
